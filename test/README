@@ -1,0 +1,6 @@
+This directory contains a few unit tests for Caboodle.
+
+The Makefile copies the .ml files over from the src directory and
+the tests work on those. This way we can test all the functions in
+them, without having to care about what is declared in the .mli files.
+

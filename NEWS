@@ -1,0 +1,15 @@
+2006-11-04 0.5
+  * made compatible with the libcairo-ocaml (20060517) in Ubuntu Edgy 
+
+2005-08-11 0.4
+	* optimized the drawing, now deals better with a large number of vertices and edges
+	* added a menu command for randomizing the current level
+	* added a menu toggle for showing the intersections interactively on the screen. 
+
+2005-08-10 0.3
+	* now added the .desktop file for real.
+	* the level generator is slightly better now, it doesn't generate quite so many vertices with just two edges anymore
+	* broke up the source into multiple files
+
+2005-08-08 0.2
+	* added an icon, a .desktop file and a toplevel makefile with install and clean targets

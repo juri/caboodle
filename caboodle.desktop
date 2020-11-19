@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Caboodle
+Comment=Arrangle the balls so no lines cross
+TryExec=PREFIX/bin/caboodle
+Exec=PREFIX/bin/caboodle
+Terminal=false
+Type=Application
+Categories=GNOME;Application;Game;PuzzleGame;
+Icon=PREFIX/share/caboodle/caboodle.svg
+GenericName[en_US]=
+StartupNotify=true
+MimeType=

@@ -1,0 +1,35 @@
+This is Caboodle, a clone of Planarity[1].
+
+Caboodle lived originally in Darcs. This repository doesn't contain
+the history of the original Darcs repo, but instead starts from a
+snapshot of version 0.5.
+
+I haven't touched Caboodle in well over a decade and I'm not planning to,
+so if you feel like doing anything with it, please go ahead and fork.
+
+The objective of the game is to arrange the balls on the screen so that no lines cross.
+
+It is for the GNOME[2] environment. It is written in OCaml[3] using
+lablgtk2[4] and cairo-ocaml[5] which in turn use Gtk+[6] and Cairo[7].
+
+The author of this software is Juri Pakaste <juri@iki.fi>, and it is
+licensed under the terms of the GNU General Public License, version 2
+or newer. For more information, see COPYING.
+
+To compile and install, run make install in the top level directory.
+By default, Caboodle is installed under /usr/local. To install to an 
+alternative location, you can define the make variables PREFIX. 
+
+make PREFIX=/opt/caboodle install
+
+If you do not wish for the .desktop file to go under
+PREFIX/share/applications, you can define the variable DESKTOPLOCATION
+separately.
+
+[1] http://planarity.net/
+[2] http://gnome.org/
+[3] http://ocaml.org/
+[4] http://wwwfun.kurims.kyoto-u.ac.jp/soft/olabl/lablgtk.html
+[5] http://cvs.freedesktop.org/cairo/cairo-ocaml/
+[6] http://gtk.org/
+[7] http://cairographics.org/
